@@ -14,7 +14,7 @@ import java.net.URL;
 
 @CucumberOptions(
         features = {"src/test/resources/MultipleProductPageObje.feature"},
-        plugin= {"pretty","json:target/e2epageobject_json_result","html:target/site/e2epageobject_html_result"})
+        plugin= {"pretty","json:target/e2epageobject_json_result.json","html:target/site/e2epageobject_html_result"})
 
 @RunWith(Cucumber.class)
 
